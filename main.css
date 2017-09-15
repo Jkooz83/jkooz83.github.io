@@ -88,6 +88,14 @@ section li {
 	font-variant:normal;
 	padding-bottom: .25em;
 }
+
+.list-item-highlight
+
+{
+	font-weight: bold;
+	color: lime;	
+	}
+}
 /*the styles for the article*/
 article{
 	padding: .5em 0;
