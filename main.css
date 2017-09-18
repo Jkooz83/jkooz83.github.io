@@ -89,12 +89,15 @@ section li {
 	padding-bottom: .25em;
 }
 
-.list-item-highlight
+section li.list-item-highlight
 
 {
-	font-weight: bold;
-	color: lime;	
-	}
+	font-weight:900;
+	font-size:larger;
+	font-style:italic;
+	color:#009933;
+	text-decoration:underline;
+	
 }
 /*the styles for the article*/
 article{
