@@ -1,0 +1,44 @@
+﻿h1
+{
+	font-family:Verdana, Geneva, Tahoma, sans-serif;
+	text-align:left;
+}
+
+.button1
+{
+	width : 200px;
+	height : 20px;
+	padding : 20px;
+	font-size : 24px;
+	font-family:"Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+	text-align : center;
+	border : 2px solid black;
+	display : inline-block;
+	margin-left:auto;
+}
+
+.button2
+{
+	width : 200px;
+	height : 20px;
+	padding : 20px;
+	font-size : 24px;
+	font-family:"Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+	text-align : center;
+	border : 2px solid black;
+	display : inline-block;
+	margin-left:auto;
+}
+
+.button3
+{
+	width : 200px;
+	height : 20px;
+	padding : 20px;
+	font-size : 24px;
+	font-family:"Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+	text-align : center;
+	border : 2px solid black;
+	display : inline-block;
+	margin-left:auto;
+}
