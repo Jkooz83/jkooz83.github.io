@@ -1,0 +1,117 @@
+﻿<html>
+	
+<head>
+	<meta charset="utf-8">
+		<title>First Web Site</title>	
+			<link rel="stylesheet" href="main.css">
+			
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+   <script src="scripts.js"></script>
+	<header>
+		<h2>NASCAR Central</h2>
+		<h3>Your place for <b>ALL</b> things NASCAR</h3>
+		
+		<button onclick="myFunctionforTime()">Current Date and Time</button>
+
+				<p id="time"></p>
+		
+	</header>
+    	<ul>
+       		<li><a href="http://www.NASCAR.com">Official NASCAR Website</a></li>
+       		<li><a href="https://www.nascar.com/drivers/monster-energy-nascar-cup-series/">Drivers List</a></li>
+       		<li><a href="http://www.nascar.com/monster-energy-nascar-cup-series/schedule/">Schedule</a></li>
+       		<li><a href="http://www.nascar.com/standings/monster-energy-nascar-cup-series">Standings</a></li>
+    	</ul>	
+	
+	
+<main>
+	<section>
+		<h2>Recap of Last Race</h2>
+		<h3><span style="color:red">Bristol Motor Speedway</span></h3>
+	
+			<p> Click the button below to see who won the Race!</p>
+				<button type="button" onclick="myfunctionforWinner()">Who Won?!?</button><!-- JavaScript-->
+
+			<p id="raceWinner"></p>
+
+			
+			
+			<h3>Race Recap</h3>
+			
+			
+				<p>In the closest finish ever at Bristol, Harvick won for the eighth time at the track and the fifth time in six starts since joining Stewart-Haas Racing. 
+				Harvick collected his 32nd career victory, nine of which have come since 2013.Harvick, Dale Earnhardt Jr. and Austin Dillon stayed out on old tires during the caution, but Edwards led a parade to pit road for fresh 
+				rubber, and by the time the front of the field cleared Turn 2 on the restart lap, Edwards had moved into second place.As the cars sped through the final two corners on the last lap, Edwards nudged Harvicks No. 4 
+				Chevrolet and dived to the inside. Twice their cars collided in the final quarter-mile, with Harvick winning the drag race to the finish. Harvick after the race said</p>	
+				<blockquote>	
+						<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e2/TSM350_-_2015_-_Kevin_Harvick_-_Stierch_4_Cropped.jpg/220px-TSM350_-_2015_-_Kevin_Harvick_-_Stierch_4_Cropped.jpg">
+						<br>
+							<q>That was not the car that I wanted to see behind me. I knew I could beat him down there, and I tried to protect the bottom in (Turns) 3 and 4 and I just missed the bottom with all the rubber build-up on the 
+							tires and everything.
+							But, all in all, I knew I was going to be on defense down there. I got up too high and wasn't able to stay on the bottom like I wanted to, and then he got into me, like he should have, and I needed to get a 
+							good run off the corner, and I was going to have to get into his door and it worked out -- just barely.</q>
+					</blockquote>
+					<br>
+					<br>
+					
+			<h2> Top-5 Finishers At Bristol </h2>
+				
+			<ol>
+					
+				<li onmouseover="MouseOverListItem(this)" onmouseout="MouseOutListItem(this)"> Kevin Harvick</li>
+				<li onmouseover="MouseOverListItem(this)" onmouseout="MouseOutListItem(this)"> Carl Edwards</li>
+				<li onmouseover="MouseOverListItem(this)" onmouseout="MouseOutListItem(this)"> Denny Hamlin</li>
+				<li onmouseover="MouseOverListItem(this)" onmouseout="MouseOutListItem(this)"> Kyle Busch </li>
+				<li onmouseover="MouseOverListItem(this)" onmouseout="MouseOutListItem(this)"> Dale Earnhardt Jr.</li>
+			</ol>
+
+	<h1>Trivia!</h1>
+	<p>How Many wins did you predict Martin Truex Jr to win this year? Enter below to see if he has won more or less then your predctions</p>
+
+<input id="mtjWins" value="Wins" >
+
+
+
+<button onclick="myFunction()">Click Here Now!</button>
+
+
+
+<p id="demo"></p>
+
+<section>
+<h1>Looking back on 2016</h1>
+		<article>
+			<h2>Relieving the CLOSEST FINISH IN NASCAR HISTORY</h2>
+			<iframe width="304" height="189" src="https://www.youtube.com/embed/q4V1OTobqiM" frameborder="2" allowfullscreen></iframe>
+						<p>After the drivers traded shots on the way to the stripe, Harvick pulled ahead to win the fourth 
+						NASCAR Sprint Cup Series race of the season by .010 seconds (roughly four inches), 
+						the identical margin by which Denny Hamlin had beaten Martin Truex Jr. in the season-opening Daytona 500.</p>
+			<p><a href="http://galleries.nascar.com/gallery/167/closest-finishes-in-nascar-history#/0"> Click here </a>&nbsp;<b>for a recap of the closest finishes in NASCAR history</b></p>
+		</article>
+		
+	
+	
+		<h2>Upcoming Sprint Cup Races</h2>
+		<br>
+		<h2>Auto Club Speedway</h2>
+		<h3>Fontana, California</h3>
+				<hr>	
+		<h2>Martinsville Speedway</h2>
+		<h3>Martinsville, Virginia</h3>
+				<hr>		
+		<h2>Texas Motor Speedway</h2>
+		<h3>Fort Worth, Texas</h3>
+				<hr>		
+		<h2>Bristol Motor Speedway</h2>
+		<h3>Bristol, Tennessee</h3>
+</section>
+
+  </main>
+	<footer>
+		<p> &copy; 2017 National Association Stock Car Auto Racing</p>
+	</footer>
+</body>
+</html>
