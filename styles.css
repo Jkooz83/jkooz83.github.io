@@ -1,0 +1,56 @@
+﻿@font-face {
+	font-family: myFirstFont;
+	src: url('Hauser.otf');
+}
+
+
+#champ {
+	border-radius: 15px 50px;
+	border: 6px dotted red;
+	padding: 20px;
+	width: 200px;
+	height: 75px;
+	font-style:italic;
+	font-size:x-large;
+	font-weight:bolder;
+}
+
+#HEAD {
+transform: rotate(-4deg);
+}
+
+
+#HEAD2{
+	font-family:myFirstFont;
+	transform: rotateX(150deg);
+}
+
+		
+#kkJunior {
+		background:url('88.jpg');
+	    background-size: 100px 80px;
+    	background-repeat: no-repeat;
+    	padding:65px;
+}
+
+@keyframes example {
+    0%   {left:0px; top:0px;}
+    25%  {left:100px; top:0px;}
+    50%  {left:0px; top:0px;}
+    75%  {left:100px; top:0px;}
+    100% {left:0px; top:0px;}
+}
+#Junior {
+    background-image:url('88.jpg');
+    background-size: 100px 80px;
+    background-repeat: no-repeat;
+    width: 100px;
+    height: 100px;
+    position: relative;
+    animation-name: example;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+
+}
+
+
