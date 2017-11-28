@@ -1,0 +1,26 @@
+﻿<html>
+
+    <head>
+        <link href="~/Styles/Home.css" rel="stylesheet" />
+        <script data-require="angular.js@1.4.8" data-semver="1.4.8" src="https://code.angularjs.org/1.4.8/angular.js"></script>
+        <script src="~/Scripts/Home.js"></script>
+        <title>Introduction to AngularJS</title>
+    </head>
+
+    <body>
+
+        Hello World !
+        <!-- HTML Here -->
+
+        <h3>Indians Lineup</h3>
+        <div class="divider"></div>
+
+            <div ng-repeat="x in players">
+            {{ x.FirstName + ' ' + x.LastName }}
+        </div>
+        <div class="divider"></div>
+
+
+    </body>
+
+</html>
