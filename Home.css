@@ -1,0 +1,93 @@
+﻿.paragraph {
+    font: italic 12px Calibri;
+    text-align:left;
+}
+
+button {
+    font: 800;
+}
+body {
+    width: 520px;
+    margin: auto;
+    font-family: Calibri;
+}
+h1 {
+      margin-top: 3%;
+    font-family: Cambria;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.container{
+    width: 100%;
+    overflow: hidden;
+}
+
+.login{
+    width: 100%;
+    float: left;
+}
+
+.account{
+    width:100%;
+    float: right;
+    overflow: hidden;
+}
+#eVal{
+    display: block;
+}
+#elementType{
+    display: block;
+}
+
+form {
+ padding: 3%;
+    border: 2px solid black;
+    border-radius: 15px;
+    color: black;
+}
+
+#userName {
+              display: block;
+          }
+
+#password {
+    margin-bottom: 2%;
+    display: block;
+}
+
+#newUN{
+    display:block;
+}
+
+#updateGPA{
+    display: block;
+}
+#newPW{
+    display: block;
+}
+#email{
+    display: block;
+}
+
+#new{
+    position: relative;
+}
+#acctName{
+    display: block;
+    margin-bottom: 3%;
+}
+#emailAddress{
+    display: inline;
+}
+#updateEmail{
+    display: block;
+}
+#gpa{
+    display:inline;
+}
+
+#acctName{
+    display: block;
+    margin-bottom: 3%;
+}
